@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script  src = "https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js" ></script>
+        <script  src = "myjquery.js" ></script>
+
+    </head>
+    <body>
+
+        <div data-role="page" id="home"> 
+            <header data-role="header">
+                <h1>RAPID VOCAB</h1>
+            </header>
+            <ul data-role="listview">
+
+                <li>
+                    <a href="#vocab">
+                        <h1>Vocabulary</h1>
+                        <p> </p>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#quiz">
+                        <h1>Test Your Vocab</h1>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#facts">
+                        <h1>Fun Facts</h1>        
+                        <p></p>
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-role="button" data-icon="home">Home</a></li>
+                        <li><a href="#aboutus" data-role="button"data-icon="user">About Us</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+
+        <!---mainpage--->
+        <div data-role="page" id="aboutus"> 
+            <header data-role="header">
+                <h1>ABOUT US</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h3 style="color: #ffffff;">We are a dedicated team of 3 people who worked and created this app to enhance the vocabulary of the general population and students are interested in taking  competitive exams.
+                    Special feature of this app is the fun fact feature, which allows the user to take a break and relax and just read about things that are interesting to know.  <br>
+                </h3>    </center><br>
+            <h3 style="color: #ffffff;">     The team comprises of three CS Grad Students:<br>
+                1) Akshay Dikshit  <br>
+                2) Anshul Upadhyay  <br>
+                3) Vraj Soni  <br>
+            </h3>
+
+        </div>
+
+        <!---Facts--->
+
+        <div data-role="page" id="facts"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://s3.scoopwhoop.com/aka/ind/4.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">Bandra Worli Sealink has steel wires equal to the earth's circumference</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#taj" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+        <div data-role="page" id="taj"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="http://webneel.com/daily/sites/default/files/images/daily/04-2014/7-taj-mahal-pictures.preview.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. 
+                    <br>It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favourite wife, Mumtaz Mahal</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#bandra" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#floatingPO" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+        <div data-role="page" id="floatingPO"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="http://www.mediacenterimac.com/wp-content/uploads/5a.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">Tourists to Jammu and Kashmir now have another attraction - a floating post office on the Dal Lake in Srinagar, the first in the country.</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#taj" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#ISRO" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <!---Facts Page--->
+        <div data-role="page" id="ISRO"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://s3.scoopwhoop.com/aka/ind/8.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">In September 2009, India's ISRO Chandrayaan- 1 using its Moon Mineralogy Mapper detected water on the moon for the first time.</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#floatingPO" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#ground" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>		
+
+
+        <!---Facts Page--->
+        <div data-role="page" id="ground"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://s4.scoopwhoop.com/aka/ind/6a.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">At an altitude of 2,444 meters, the Chail Cricket Ground in Chail, Himachal Pradesh, is the highest in the world. <br>
+                    It was built in 1893 and is a part of the Chail Military School.</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#ISRO" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#casino" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+
+        <!---Facts Page--->
+        <div data-role="page" id="casino"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://s3.scoopwhoop.com/anj/facts/370186934.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">There is no clock in casino. You can play till whatevet time you want.</h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#ground" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#wall" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <!---Facts Page--->
+        <div data-role="page" id="wall"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="http://www.chinatravellers.com/Upfiles/Tempimg/20138291923072815.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">The Great Wall of China cannot be seen from space with the naked eye. It can be seen with aid.<br>
+                    The Great Wall of China has been called the longest cemetery on Earth. Over a million people died building the Wall and archaeologists have found human remains buried under parts of the wall.
+                    <br>
+                    Although the official number of the length of the Great Wall is 8851.8 kilometers (5500 miles).<br>
+                    The Great Wall of China is threatened with erosion. <br> 
+
+                </h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#casino" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#train" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+        <!---Facts Page--->
+        <div data-role="page" id="train"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="http://si.wsj.net/public/resources/images/BN-EU361_jbulle_M_20140930203633.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">Japan is most famous for its speeding trains<br>
+                    Japan has the third longest life expectancy in the world with men living to 81 years old and women living to almost 88 years old. <br>
+                    The Japanese live on average four years longer than Americans.Japan consists of over 6,800 islands.
+                </h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#wall" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#statue" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="statue"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://i.pinimg.com/736x/5c/cb/68/5ccb687cf17ff3f7ff2c29d7aee2a1d4--liberty-statue-places-to-travel.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;"> The Statue of Liberty is associated with New York City, but it is actually physically located in New Jersey! Jersey City, New Jersey to be exact.<br> 
+                    Another fun fact: The seven rays on the crown of the Statue of Liberty represent the seven continents; each measures up to 9 feet in length and weighs as much as 150 pounds
+                </h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#train" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#building" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+        <div data-role="page" id="building"> 
+            <header data-role="header">
+                <h1>Facts</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <img src="https://www.thecrazyfacts.com/wp-content/uploads/2014/01/8461360102_89efc8a2f6_z.jpg" class="fullscreen" height="342" width="342"/>
+                <h3 style="color: #ffffff;">  The Burj Khalifa of Dubai is considered as world’s tallest man-made structure. The height of it is 2,717 feet.  <br>
+                    Burj Khalifa is also edifices the highest mosque, the highest restaurant, highest outdoor observation and highest nightclub. 
+                    <br>All these things are in the Burj Khalifa tower.
+                </h3>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#statues" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <!---Facts Page--->
+
+
+
+        <!---Quiz--->
+        <div data-role="page" id="quiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Aberrant</h1>
+
+                <p>
+                    <input type="button" id="bt1" name="my-dropdown" value="Normal"  >
+                    <input type="button" id="bt2" name="my-dropdown"  value="Typical"> 
+                    <input type="button" id="bt3" name="my-dropdown"  value="Abnormal"></p>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#bafflequiz" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div><!---page--->
+        <div data-role="page" id="bafflequiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Baffle</h1>
+
+                <style type="text/css">
+                    .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
+                    {
+                        background-color: #8527ad; /* Green */
+
+                    }
+
+
+
+                </style>
+                <div class="button"><p >
+                        <input type="button"  id="baf1" value="Puzzle"  >
+                        <input type="button" id="baf2" value="Englighten"> 
+                        <input type="button" id="baf3" value="Clear"></p></div>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#quiz" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#buttressquiz" data-role="button" data-icon="arrow-r">NEXT</a></li>
+
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+        <!---Quiz--->
+        <div data-role="page" id="buttressquiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Buttress</h1>
+
+                <p>
+                    <input type="button" id="but1" name="my-dropdown" value="Undermine"  >
+                    <input type="button" id="but2" name="my-dropdown"  value="Support"> 
+                    <input type="button" id="but3" name="my-dropdown"  value="Weaken"></p>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#bafflequiz" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#Cacophonousquiz" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="Cacophonousquiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Cacophonous</h1>
+
+                <p>
+                    <input type="button" id="ca1" name="my-dropdown" value="Harsh Sounds"  >
+                    <input type="button" id="ca2" name="my-dropdown"  value="Harmonious"> 
+                    <input type="button" id="ca3" name="my-dropdown"  value="Melodious"></p>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#buttressquiz" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#caliberquiz" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="caliberquiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Caliber</h1>
+
+                <p>
+                    <input type="button" id="cal1" name="my-dropdown" value="Ability; quality"  >
+                    <input type="button" id="cal2" name="my-dropdown"  value="Inablity"> 
+                    <input type="button" id="cal3" name="my-dropdown"  value="Weakness"></p>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#Cacophonousquiz" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#daintyquiz" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="daintyquiz"> 
+            <header data-role="header">
+                <h1>Quiz</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <center>
+                <h1 style="color: #ffffff;" >Dainty</h1>
+
+                <p>
+                    <input type="button" id="da1" name="my-dropdown" value="Delicately beautiful"  >
+                    <input type="button" id="da2" name="my-dropdown"  value="Ugly"> 
+                    <input type="button" id="da3" name="my-dropdown"  value="Undiscriminating"></p>
+            </center>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#Cacophonousquiz" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+        <!---Vocab--->
+        <div data-role="page" id="vocab"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+
+            <h1 style="color: #ffffff; ">aberrant</h1>
+            <h4  style="color: #ffffff; font-weight:normal; ">&#10003; Deviating from the usual or natural type: atypical, abnormal aberrant behavior</h4>
+            <p style="color: #ffffff;"><i>I don't intend to suggest that his psychology was in some way <b>aberrant</b></i></p>
+            <p style="color: #ffffff;"><i>When the astronomer looked into the telescope, he was shocked by the sight of a star moving in an <b>aberrant</b> path</i></p>
+            <audio controls>
+                <source src="aberrant--_us_2_rr.mp3" type="audio/mpeg">
+            </audio>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#baffle" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div><!---page--->
+        <div data-role="page" id="baffle"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">baffle</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; to defeat or check (someone) by confusing or puzzling, frustrate completely</h4>
+            <p style="color: #ffffff;"><i>Her behavior <b>baffled</b> her parents.</i></p>
+            <p style="color: #ffffff;"><i>I was <b>baffled</b> by many of the scientific terms used in the article.</i></p>
+            <audio controls>
+                <source src="baffle--_us_1.mp3" type="audio/mpeg">
+            </audio>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#vocab" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#buttress" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div><!---page--->
+        <div data-role="page" id="buttress"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">buttress</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; to give encouragement or support to (a person, plan, etc.)</h4>
+            <p style="color: #ffffff;"><i>They build on their distinctive strengths, <b>buttress</b> and leverage their specific assets, attributes, and advantages.</i></p>
+            <p style="color: #ffffff;"><i>We should <b>buttress</b> cooperative tribes again, with names like Dulaim, Isawi, Al bu Issa, among others</i></p>
+            <audio controls>
+                <source src="buttress--_us_1.mp3" type="audio/mpeg">
+            </audio>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#baffle" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#cacophonous" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div><!---page--->
+
+        <div data-role="page" id="cacophonous"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">cacophonous</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; Harsh-sounding / harsh sounds</h4>
+            <p style="color: #ffffff;" ><i>Stage performers are used to a silence in their workspace, while bar singers thrive in a <b>cacophonous</b> racket</i></p>
+            <p style="color: #ffffff;" ><i><b>cacophonous</b> din strained her severely frayed nerves.</i></p>
+            <audio controls>
+                <source src="cacophonous--_us_1.mp3" type="audio/mpeg">
+            </audio>
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#buttress" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#curriculum" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="curriculum"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">curriculum</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; the courses offered by an educational institution</h4>
+            <p style="color: #ffffff;" ><i>the high school <b>curriculum</b></i></p>
+            <p style="color: #ffffff;" ><i>the <b>curriculum</b> choices for history students are extensive</i></p>
+            <audio controls>
+                <source src="curriculum--_us_1.mp3" type="audio/mpeg">
+            </audio>
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#cacophonous" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#dainty" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="dainty"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">dainty</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; delicate; delicately beautiful; fastidious </h4>
+            <p style="color: #ffffff;" ><i>the girl's <b>dainty</b> little hands</i></p>
+            <p style="color: #ffffff;" ><i>Her hair was decorated with <b>dainty</b> pink flowers</i></p>
+            <audio controls>
+                <source src="dainty--_us_1.mp3" type="audio/mpeg">
+            </audio>
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#curriculum" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#dauntless" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="dauntless"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">dauntless</h1>
+            <h4 style="color: #ffffff; font-weight:normal; ">&#10003; bold; fearless </h4>
+            <p style="color: #ffffff;" ><i>Through all the first troubles of her reign the young queen steered her skilful and <b>dauntless</b> way with the tact of a woman and the courage of a man</i></p>
+            <p style="color: #ffffff;" ><i>More than one unsuccessful attempt was made to relieve Sir Harry; but his <b>dauntless</b> spirit was equal to the occasion</i></p>
+            <audio controls>
+                <source src="dauntless--_us_1.mp3" type="audio/mpeg">
+            </audio>
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#dainty" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#elude" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+        <div data-role="page" id="elude"> 
+            <header data-role="header">
+                <h1>Vocab</h1>
+                <a href="#home" data-icon="home">HOME</a>
+            </header>
+            <h1 style="color: #ffffff; ">elude</h1>
+            <h4 style="color: #ffffff; font-weight:normal; e">&#10003; escape from; escape the understanding or grasp of </h4>
+            <p style="color: #ffffff;" ><i>The criminal was able to <b>elude</b> the police in the crowded mall</i></p>
+            <p style="color: #ffffff;" ><i>When <b>Hazel</b> shoplifts, she tries to elude the store cameras</i></p>
+            <audio controls>
+                <source src="elude--_us_1.mp3" type="audio/mpeg">
+            </audio>
+
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#dauntless" data-role="button" data-icon="arrow-l">PREVIOUS</a></li>
+                        <li><a href="#capacitance" data-role="button" data-icon="arrow-r">NEXT</a></li>
+                    </ul>
+                </nav>
+            </footer>	
+        </div>
+
+
+    </body>
+</html>
